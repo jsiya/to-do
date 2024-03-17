@@ -1,42 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App{
+    font-family: "Exo";
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+     background-color: rgba(7, 16, 49, 0.887);
+     min-height: 100vh;
+}
+
+header{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(7, 16, 49, 0.887);
+    width: 90%;
+    height: 100px;
+    border-radius: 12px;
+    box-shadow: 12px 8px rgba(140, 97, 196, 0.478);
+}
+header img{
+    height: 60px;
+    width: 55px;
+}
+.header-p{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(160, 126, 204);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+    align-items: center;
+}
+footer{
+    opacity: 0;
+}
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
