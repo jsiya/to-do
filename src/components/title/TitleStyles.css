@@ -63,3 +63,12 @@ input[type="date"]{
     cursor: pointer;
     border-radius: 3px;
 }
+
+@media only screen and (max-width: 768px) {
+    .new-task-sec{
+        flex-direction: column;
+    }
+    input[type="date"]{
+        width: 85%;
+    }
+  }
