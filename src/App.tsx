@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import './App.css';
 import Title from './components/title/Title';
 import ListToDo from './components/list/ListToDo';
