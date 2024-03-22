@@ -38,7 +38,7 @@ import { useTaskContext } from '../../contexts/TaskContext';
 // };
 
 const ListToDo: React.FC = () => {
-    const { tasks, removeTask, markTaskAsCompleted } = useTaskContext(); // Use useTaskContext to get access to context functions and state
+    const { tasks, removeTask, markTaskAsCompleted } = useTaskContext();
 
     const handleRemoveTask = (event: React.MouseEvent<HTMLButtonElement>, taskName: string) => {
         event.stopPropagation();

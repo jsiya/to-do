@@ -37,7 +37,7 @@ interface TitleProps {
 // };
 
 const Title: React.FC = () => {
-    const { addTask } = useTaskContext(); // Use useTaskContext to get access to context functions
+    const { addTask } = useTaskContext(); 
     const [title, setTitle] = useState('');
     const [date, setDate] = useState(new Date());
 

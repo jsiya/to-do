@@ -64,7 +64,7 @@ import { TaskProvider } from './contexts/TaskContext';
 
 const App: React.FC = () => {
     return (
-        <TaskProvider> {/* Wrap the entire app with TaskProvider */}
+        <TaskProvider> 
             <div className="App">
                 <header>
                     <p className="header-p">To-Do List</p>
@@ -74,7 +74,7 @@ const App: React.FC = () => {
                     <ListToDo />
                 </main>
                 <footer>
-                    {/* Your footer content */}
+                   
                 </footer>
             </div>
         </TaskProvider>
